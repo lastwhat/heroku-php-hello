@@ -5,7 +5,7 @@ if (!isset($_GET['q'])) {
 }
 
 $q = $_GET['q'].' movie';
-$a = file_get_contents("https://www.google.co.in/search?site=&source=hp&q=".urlencode($q));
+$a = file_get_contents("https://www.google.co.in/search?start=0&gws_rd=cr&gbv=1&lr=en&ei=x&q=".urlencode($q));
 $classname = "_B5d";
 
 $internalErrors = libxml_use_internal_errors(true);
