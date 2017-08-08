@@ -20,6 +20,5 @@ $internalErrors = libxml_use_internal_errors(true);
     if (!isset($result)) {
     	$result = ['N/A'];
     }
-    $ress['movie'] = $result[0];
-    print_r(json_encode($ress));
+    echo $result[0];
 ?>
