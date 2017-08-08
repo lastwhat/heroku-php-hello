@@ -1,4 +1,9 @@
 <?php
+if (!isset($_GET['q'])) {
+	echo 'N/A';
+	return;
+}
+
 $q = $_GET['q'].' movie';
 $a = file_get_contents("https://www.google.co.in/search?site=&source=hp&q=".urlencode($q));
 $classname = "_B5d";
@@ -16,3 +21,4 @@ $internalErrors = libxml_use_internal_errors(true);
     	$result = ['N/A'];
     }
     echo $result[0];
+?>
