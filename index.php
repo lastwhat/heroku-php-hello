@@ -20,5 +20,6 @@ $internalErrors = libxml_use_internal_errors(true);
     if (!isset($result)) {
     	$result = ['N/A'];
     }
-    echo $result[0];
+    $ress['movie'] = $result[0];
+    echo $ress;
 ?>
