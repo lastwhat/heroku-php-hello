@@ -23,6 +23,6 @@ $internalErrors = libxml_use_internal_errors(true);
     $res = [];
     $res[] = $result[0];
     $resarr['movie'] = $res;
-    //echo $resarr;
-    print_r(json_encode($resarr));
+    echo $result[0];
+    //print_r(json_encode($resarr));
 ?>
