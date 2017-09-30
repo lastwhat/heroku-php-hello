@@ -23,7 +23,7 @@ $site = "http://wiprodigital.com/";
 // Default sitemap filename
 $file = "sitemap.xml";
 // Depth of the crawl, 0 is unlimited
-$max_depth = 0;
+$max_depth = 2;
 // Show changefreq
 $enable_frequency = false;
 // Show priority
