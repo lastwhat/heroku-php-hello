@@ -19,7 +19,7 @@ Usage is pretty strait forward:
 It is recommended you don't remove the above for future reference.
 */
 // Default site to crawl
-$site = "https://www.knyz.org/";
+$site = "http://wiprodigital.com/";
 // Default sitemap filename
 $file = "sitemap.xml";
 // Depth of the crawl, 0 is unlimited
