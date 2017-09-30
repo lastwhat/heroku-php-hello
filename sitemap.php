@@ -6,6 +6,14 @@
 error_reporting(E_ALL);
 //Read global variables from config file
 require_once( 'sitemap.config.php' );
+if(isset($_GET['u']))
+{
+    $site = $_GET['u'];
+}
+if(isset($_GET['d']))
+{
+    $max_depth = $_GET['d'];
+}
 // Abstracted function to output formatted logging
 function logger($message, $type)
 {
